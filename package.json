@@ -1,0 +1,14 @@
+{
+  "id": "recipe-franz-fantasy-yahoo",
+  "name": "FantasyYahoo",
+  "version": "1.0.0",
+  "description": "Recipe for Franz to get Fantasy Yahoo",
+  "main": "index.js",
+  "author": "Diego La Manno <diegolamanno.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://baseball.fantasysports.yahoo.com/b1/{teamId}",
+    "hasTeamId": true,
+    "urlInputSuffix": "baseball.fantasysports.yahoo.com"
+  }
+}
